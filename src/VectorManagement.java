@@ -14,6 +14,8 @@ public class VectorManagement {
         System.out.println(vMultiply.toString());
         Vectors sum = john.sum(bobby);
         System.out.println(sum.toString());
+        double cosinus = john.cosinus(bobby);
+        System.out.println(cosinus);
         Vectors substract = john.substract(bobby);
         System.out.println(substract.toString());
         Vectors[] arrayOfVectors = Vectors.vectorGenerator(5);
